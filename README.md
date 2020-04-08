@@ -10,7 +10,7 @@ It works as a bridge. Every packet that comes from one interface goes to the oth
 
 I tried to modify as little as possible the examples provided by MLA, but the structure is quite messy.
 
-# Usage
+## Usage
 
 Before programming a device, check the files `bsp/leds.c` and `bsp/buttons.c` to configure the right GPIOs.
 
@@ -20,6 +20,6 @@ Before programming a device, check the files `bsp/leds.c` and `bsp/buttons.c` to
 
 `app_led_usb_status.c` contains the status LED update task to reflect the status of the USB connection.
 
-# Descriptor
+## Descriptor
 
 If you're looking for a descriptor for the composite device is located at `usb/usb_descriptors.c`.
