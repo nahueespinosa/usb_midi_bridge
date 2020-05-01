@@ -1,9 +1,9 @@
-# IDE Files
-nproject/
+# Build files
 build/
 debug/
 dist/
 
-# Exceptions
-!project.xml
-!configurations.xml
+# IDE Private Files
+nbproject/private
+nbproject/Makefile-*
+nbproject/Package-*
