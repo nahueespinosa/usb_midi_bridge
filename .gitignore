@@ -1,4 +1,9 @@
-private/
+# IDE Files
+nproject/
 build/
 debug/
 dist/
+
+# Exceptions
+!project.xml
+!configurations.xml
